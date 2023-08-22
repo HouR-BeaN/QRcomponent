@@ -3,9 +3,15 @@ body {
     background-color: #d5e1ef;
     font-family: "Roboto", sans-serif;
   }
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .container {
     width: 350px;
-    height: 550px;
+    height: max-content;
     margin: auto;
     border-radius: 10px;
     align-items: center;
@@ -16,8 +22,7 @@ body {
   .img_container {
     box-sizing: border-box;
     width: 350px;
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 10px;
   }
   .description_container {
     width: 330px;
@@ -32,7 +37,7 @@ body {
     margin-right: auto;
   }
   .attribution {
-    margin-top: 20px;
+    margin-bottom: 10px;
   }
   h4 {
     font-weight: bold;
